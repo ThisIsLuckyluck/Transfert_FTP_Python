@@ -1,3 +1,5 @@
 # FTP
-Here the code to transfert a file from your computer (local) to your or other FTP server.
-Btw if you really care about the code there is a setting which configure the FTP server in passive so if you want this program to run correctly you have to set your server in passive
+Here the code to transfert a file from your computer (local) to an FTP server.
+Set your local_path and your ftp_file path, your credential and it's done !
+
+I put a setting on the code, the setting is about if your server is in passive mode or not (line 29).

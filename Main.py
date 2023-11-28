@@ -1,24 +1,20 @@
 from ftplib import FTP
 
-# Informations FTP server
 ftp_host = 'Your.FTP.IP.SERVER'
 ftp_user = 'Your_user'
 ftp_password = 'Your_Password'
 
 
-# The Path of your FTP server where you want to transfert
+# The Path of your FTP server
 local_file_path = '/your/local/file/path'
 
 
-# The name of your file
+# The name of your file (local)
 local_file_name = 'your_file_name'
 
 # The path on your Server FTP
 ftp_file_path = '/your/ftp/file/path'
 
-
-
-# Create object FTP
 ftp = FTP()
 
 # Connection to the FTP server
